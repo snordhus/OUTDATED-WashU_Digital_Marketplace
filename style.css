@@ -1,0 +1,9 @@
+.logo{
+    width:5rem;
+}
+.listingImage{
+    width:100%;
+}
+.listingImage:hover{
+    border:1px solid rgb(41, 41, 41);
+}
