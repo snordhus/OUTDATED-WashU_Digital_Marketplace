@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "WashU_Digital_Marketplace",
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		{
+			"name": "Launch Chrome",
+			"request": "launch",
+			"type": "pwa-chrome",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}"
+		},
+			{
+				"type": "pwa-chrome",
+				"request": "launch",
+				"name": "Open AnaCopy.html",
+				"file": "c:\\Users\\karin\\Visual Studio\\DSC Project\\WashU_Digital_Marketplace\\AnaCopy.html"
+			}
+		]
+	}
+}
