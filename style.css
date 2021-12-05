@@ -1,9 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0%; 
+}
+:root{
+    --clr-primary-900:#F3EED9;
+    --clr-primary-500:#b83c17;
+    --clr-primary-200:#2C3531;
+    --clr-primary-700: #174a81;
+    --clr-primary-400:#147475;
+    --clr-neutral-900:#FFF;
+}
+
+/* body{
+    /* background-color:#13136e; */
+    /* padding: 2%; */
+/* } */
+
+.button-holder{
+    width:  100px;
+    height: 2100px;
+}
 .logo{
-    width:5rem;
+    width: 50px;;
+    height:55px;
+    margin-left: 10px;
+}
+.cart{
+    width:3rem;
+}
+
+/* .heading1 div{
+    padding: 1px 18px;
+} */
+
+.logo{
+    /* padding: 4px; */
+    /* margin-left: 6px;
+    margin-right: 6px; */
+
+}
+
+.T{
+    padding: 4px 13px;
 }
 .listingImage{
-    width:100%;
+    /* width:100%; */
+    /* float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover; */
+    width:200px;
+    height:200px;
+    object-fit:scale-down;
 }
 .listingImage:hover{
     border:1px solid rgb(41, 41, 41);
 }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 14px 16px; */
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: var(--clr-primary-500);
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+
+  .search_wrap{
+	/* width: 500px;
+	margin: 38px auto; */
+    margin: 10px auto; 
+
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 500px;
+	height: 60px;
+
+}
+
+.search_wrap .search_box .input{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60%;
+	padding: 4px 10px;
+	border-radius: 3px;
+	font-size: 18px;
+}
+
+.search_wrap .search_box .btn{
+	position:absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 60%;
+	background:var(--clr-primary-700);
+	z-index: 1;
+	cursor: pointer;
+}
+
+.search_box .search_wrap{
+    height: 36px;
+    padding-bottom:0px;
+}
+.search_wrap .search_box .btn:hover{
+	background: #708bd2;	
+}
+
+/* search icon */
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.heading1 {
+    background-color:--clr-neutral-900;
+    /* color:rgb(80, 62, 62); */
+    padding: 0%;    
+    display:inline-flex;
+    height: 60px;
+    /* padding: 0px 20px; */
+
+}
+
+
+/* .dropdownMenuLink{
+background-color: violet;
+
+} */
+
+
+
+.heading1 a{
+    color:rgb(41, 41, 41);
+    color:var(--clr-primary-500);
+}
+.showing{
+    color:var(--clr-neutral-900);
+    background-color: var(--clr-primary-400);
+}
+
+/* .dropdown show a{
+    color:violet;
+
+} */
+/* .menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    ba
+}
+    display: block;
+    position: absolute;
+    background:var(--clr-primary-700);
+    margin-top: 15px;
+    margin-left: -15px;
+} */
+/* 
+.active:hover {
+    /* display: block; */
+    /* position: fixed; */
+    /* background:violet; */
+    /* margin-top: 15px;
+    margin-left: -15px; */
+/* } */ 
+
+/* .sub-menu-1{
+    display: none; */
+    /* https://youtu.be/wHFflWvii3M?t=820 */
+/* } */
+
+/* why isn't the dropdown menu showing */
+
+/* 
+
+li a {
+    text-decoration : none; 
+    /* color : #2d2f31; */
+    /* float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 14px 16px; */
+    /* padding: 8px 12px; */
+    /* text-decoration: none;
+    font-size: 15px; */
+/* } */
+
+
+/* nav { */
+  /* width : 300px;  */
+  /* background: #d9d9d9; */
+  /* margin : 40px auto;  */
+/* } */
+
+/* span {
+    text-align:center; */
+  /* padding : 30px; */
+  /* background : #2d2f31;  */
+  /* color : white; */
+
+  /* font-size : 1.2em; */
+  /* font-variant : small-caps; */
+  /* cursor : pointer;
+  display: block; */
+/* } */
+/* 
+span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+} */
+
+/* .slide {
+background: navajowhite;
+clear:both;
+width:100%;
+height:0px;
+overflow: hidden;
+padding: 2px; */
+  /* text-align: left; */
+  /* transition: height .4s ease; */
+/* } */
+
+/* .slide li {padding : 30px;} */
+
+/* #touch {position: relative; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {
+    height: 150;
+} 
+
+ul li{
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+
+} */
+
+/* .dropdown-menu dropdown-menu-right{
+    overflow: hidden;
+} */
+
+/* .btn btn-secondary btn-sm dropdown-toggle{
+    /* background-color: white; */
+/* }  */
+
+/* 
+.btn-group{
+    /* background-color: violet;
+    color: yellowgreen; */
+    /* background-color: #8064A2 !important; */
+/* }  */
+
+
+/* .btn-group {
+    @include button-variant(#8064A2);
+} */
+
+.dropdown-toggle{
+    background-color:var(--clr-primary-500);
+    color: white;
+}
+/* .dropdown-toggle:hover, .dropdown-toggle:active, .dropdown-toggle:visited, .dropdown-toggle:focus{
+    background-color:indianred;
+} */
