@@ -67,6 +67,8 @@ else {
         $header = 'From:noreply@washudigitalmarketplace.com' . "\r\n"; // Set from headers
 
         mail($to, $subject, $message, $header); // Send our email
+
+        header("location: email_verification_sent.html");
     }
     else {
         //looks like you already have an account mesage

@@ -37,7 +37,7 @@ if (strcmp($hash, $hash_database) == 0) {
     Your account has been activated for the WashU Digital Marketplace!
  
     You can log in here:
-    http://www.yourwebsite.com/home.php
+    http://www.yourwebsite.com/login.html
  
     '; // Our message above including the link
 }
